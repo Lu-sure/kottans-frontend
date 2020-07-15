@@ -11,7 +11,11 @@
 - Great courses, collaboration via GitHub is clear now. It was interesting
 
 ## Intro to HTML and CSS  
-![Screenshot of Finished Intro to HTML & CSS. Udacity](task_html_css_intro/intro_to_html_css_udacity.png)
-![Screenshot of Finished HTML & CSS free lesson on html academy](task_html_css_intro/HTML-academy-free-lesson-HTML-&-CSS.png)
+![Screenshot of Finished Intro to HTML & CSS, Udacity](task_html_css_intro/intro_to_html_css_udacity.png)
+![Screenshot of Finished HTML & CSS free lesson on HTML Academy](task_html_css_intro/HTML-academy-free-lesson-HTML-&-CSS.png)
 * I liked HTML and CSS
 * Need more practice
+
+## Responsive Web Design  
+![Screenshot of Finished Responsive Web Design Fundamentals, Udacity](task_responsive_web_design/responsive-web-design-fundamentals.png)
+![Screenshot of Finished Flexbox Froggy](task_responsive_web_design/flexbox-froggy.png)
