@@ -1,4 +1,8 @@
 # kottans-frontend
+## Git and GitHub
+Not quite clear at first, it became clear later. Absolutely like ![gitbranching](https://learngitbranching.js.org/).
+Almost all the commands were new to me, Git is logical, understandable, surprisingly interesting. Can't wait using branches and resolving merge conflicts!
+
 ## Linux CLI, and HTTP  
 ![Screenshot of Finished lesson of Linux Survival](task_linux_cli/Finished_lesson_of_Linux_Survival.png)
 * Command line is cool! Who needs UI?
