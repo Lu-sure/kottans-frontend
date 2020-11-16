@@ -95,3 +95,23 @@ Screenshots:
 [Basic Algorithm Scripting, freecodecapm](task_js_basics/basic-algorithm-scripting-freecodecamp.png)  
 [Functional Programming, freecodecapm](task_js_basics/functional-programming-freecodecamp.png)  
 [Intermediate Algorithm Scripting, freecodecapm](task_js_basics/intermediate-algorithm-scripting-freecodecamp.png)  
+
+## Document Object Model  
+**What was new to me:**  
+- what DOM is, as a representation of HTML  
+- to access to DOM use a special object `document`, which is expected to already exist  
+- `document` and `element` objects methods  
+- use Document Fragment to create a DOM subtree within it and then append the DOM  
+- reflow & repaint
+- JS is single-threaded, uses The Call Stack (which basically a list of the functions that are running)  
+- events: the target, the type, the listener  
+- event delegation
+- event loop, and queue
+
+**What surprised me** was how easy we can make changes to html document using DOM methods.  
+It would be good to minimize browser reflow, and get a clear understanding of synchronicity of JS.  
+**What you intend to use in future** - DOM methods, events. Every single lesson of Udacity's DOM course made me close to understanding how JavaScript works.
+
+My screenshots:
+[JS and the DOM, Udacity](task_js_dom/javascript-and-the-dom-udacity.png)  
+[Intermediate Algorithm Scripting, freecodecapm](task_js_dom/intermediate-algorithm-scripting-freecodecamp.png)
