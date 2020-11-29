@@ -112,6 +112,62 @@ Screenshots:
 It would be good to minimize browser reflow, and get a clear understanding of synchronicity of JS.  
 **What you intend to use in future** - DOM methods, events. Every single lesson of Udacity's DOM course made me close to understanding how JavaScript works.
 
-My screenshots:
+My screenshots:  
 [JS and the DOM, Udacity](task_js_dom/javascript-and-the-dom-udacity.png)  
 [Intermediate Algorithm Scripting, freecodecapm](task_js_dom/intermediate-algorithm-scripting-freecodecamp.png)
+
+## A tiny JS world  
+What surprised me was how much debug could be needed in my project!
+
+Not in vain I read the article about **copying objects in JS:**  
+ - the assignment operator doesn't create a copy, but assigns a reference to copied object  
+ - if you copy object by looping through it you are naive  
+ - shallow copy `Object.assign()` duplicate top-level properties, but nested objects are shared between source and target  
+ - deep copy speaks for itself, but it doesn't copy user-defined object methods  
+ - shallow copy works for copying circular objects, deep copy doesn't
+ - to copy object use `extend`, to copy a reference `Object.create()`
+
+## Object-Oriented JavaScript  
+I'm excited about Udacity course, I wish I had an eidetic memory to remember all the information I learn!
+About course, things that surprised me, or which were new are countless. So I'll leave all my notes here.  
+**About scopes:**  
+- lexical scope - built as the code is written, curl braces `{}` make a new scope  
+- there is a global scope, which includes all written code 
+- curl braces `{}` of `if/loop` constructions don't create a new scope  
+- execution contexts (in memory scope) are built as the code runs  
+- to retain access to function from outer scope:
+  - save that function to a global variable
+  - return function from its outer function
+  - pass to setTimeout  
+**Keyword `this`:**  
+- keyword `this` bound to the object found to the left of the dot where the containing function is called
+- `this` as a parameter of the method indication
+- use `.call` to bound `this` to needed object
+- using `new` bounds `this` to brand new object
+**Prototype chain:**  
+- object which holds a link to another object is its prototype
+- prototype chain makes objects look similar to other objects
+- `instanceof` operator checks if the prototype property of a constructor appears anywhere in the prototype chain of an object
+**Functional class pattern:**  
+- the class **builds** the object that it's going to augment, whereas he decorator **accepts** the object that it's going to augment as an input
+- to add methods to class make them **properties** of class function
+**Prototypal class pattern:**  
+- it is: function to make instances, the line inside to generate a new instance object, a prototype with properties and making instance delegate to that prototype
+- keyword `prototype` to describe the methods container object
+- someObj's prototype is `someObj.prototype`
+- `prototype.constructor` property
+**Pseudo-classical class pattern:**  
+- magic keyword `new` for constructor mode
+**Superclass and subclasses:**  
+- it is good idea for avoiding duplicating code
+- `.call` method to call the needed function (invoke class) in the right context with the parameter `this`
+- to delegate from subclass `.prototype` object to superclass `.prototype` use `Object.create`
+- set the subclass' constructor to the right constructor
+- add additional extra functionality, and voila!
+
+I intend to use prototype chain, pseudo-classical pattern, subclassing, keyword `this`, and every single bit of knowledge, which could be needed in writing good code. 
+Absolutely love [codewars](https://www.codewars.com/), love math and this is the gift - the perfect way to spend free time for me)) 
+
+Screenshots:  
+[OOP, Udacity](task_js_oop/object-oriented-js-udacity.png)  
+[My codewars progress](task_js_oop/codewars_7kyu.png), [my profile](https://www.codewars.com/users/Lu-sure)
