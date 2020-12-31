@@ -1,4 +1,23 @@
 # kottans-frontend
+## Stage 0. Self-Study
+### General
+- [x] [Git and GitHub](#git-and-github)  
+- [x] [Linux CLI, and HTTP](#linux-cli-and-http)  
+- [x] [Git Collaboration](#git-collaboration)
+### Front-End Basics
+- [x] [Intro to HTML and CSS](#intro-to-html-and-css)
+- [x] [Responsive Web Design](#responsive-web-design)
+- [x] [HTML & CSS practice Hooli-style Popup](#html--css-practice-hooli-style-popup)
+- [x] [JS Basics](#js-basics)
+- [x] [Document Object Model](#document-object-model)
+### Advanced Topics
+- [x] [Building a tiny JS world ](#building-a-tiny-js-world)
+- [x] [Object-Oriented JavaScript](#object-oriented-javascript)
+- [x] [OOP exercise](#oop-exercise)
+- [ ] [Offline Web Applications](#offline-web-applications)
+- [x] [Memory pair game](#memory-pair-game)
+- [ ] [Website Performance Optimization](#website-performance-optimization)
+- [ ] [Friends App](#friends-app)
 ## Git and GitHub
 Not quite clear at first, it became clear later. Absolutely like [gitbranching](https://learngitbranching.js.org/).  
 Almost all the commands were new to me, Git is logical, understandable, surprisingly interesting. Can't wait using branches and resolving merge conflicts!
@@ -6,9 +25,9 @@ Almost all the commands were new to me, Git is logical, understandable, surprisi
 ## Linux CLI, and HTTP
 I was impressed to discover the command line capabilities. Command line is cool! Who needs UI?
 
-[x] [Linux Survival](task_linux_cli/linux-survival.png)  
-[x] Read the article "HTTP: The Protocol Every Web Developer Must Know"  
-[ ] Good understanding of http:  
+- [x] [Linux Survival](task_linux_cli/linux-survival.png)  
+- [x] Read the article "HTTP: The Protocol Every Web Developer Must Know"  
+- [ ] Good understanding of http:  
 
 Absolutely need more info about The Protocol every developer must know.
 
@@ -73,6 +92,7 @@ My screenshots:
 [Flexbox Froggy](task_responsive_web_design/flexbox-froggy.png)  
 
 ## HTML & CSS practice: Hooli-style Popup
+[Demo](https://lu-sure.github.io/Popup/)  
 It was great!! I missed some instructions and spent a lot of time trying to make the popup look exactly like on the picture. Good lesson for me to be more attentive.   
 I learned how to make a little triangle so that popup looks like going from definite icon. I trained to use flexbox, made my first real commits, understood they must be more frequent. It was pleasure to write code, so as rewrite.
 
@@ -97,6 +117,7 @@ Screenshots:
 [Intermediate Algorithm Scripting, freecodecapm](task_js_basics/intermediate-algorithm-scripting-freecodecamp.png)  
 
 ## Document Object Model  
+[Demo](https://lu-sure.github.io/DOM/)  
 **What was new to me:**  
 - what DOM is, as a representation of HTML  
 - to access to DOM use a special object `document`, which is expected to already exist  
@@ -116,7 +137,7 @@ My screenshots:
 [JS and the DOM, Udacity](task_js_dom/javascript-and-the-dom-udacity.png)  
 [Intermediate Algorithm Scripting, freecodecapm](task_js_dom/intermediate-algorithm-scripting-freecodecamp.png)
 
-## A tiny JS world  
+## Building a tiny JS world  
 What surprised me was how much debug could be needed in my project!
 
 Not in vain I read the article about **copying objects in JS:**  
@@ -128,6 +149,7 @@ Not in vain I read the article about **copying objects in JS:**
  - to copy object use `extend`, to copy a reference `Object.create()`
 
 ## Object-Oriented JavaScript  
+[Demo](https://lu-sure.github.io/Frogger/)  
 I'm excited about Udacity course, I wish I had an eidetic memory to remember all the information I learn!
 About course, things that surprised me, or which were new are countless. So I'll leave all my notes here.
 
@@ -179,3 +201,15 @@ Absolutely love [codewars](https://www.codewars.com/), love math and this is the
 Screenshots:  
 [OOP, Udacity](task_js_oop/object-oriented-js-udacity.png)  
 [My codewars progress](task_js_oop/codewars_7kyu.png), [my profile](https://www.codewars.com/users/Lu-sure)
+
+## OOP exercise
+[Demo](https://lu-sure.github.io/a-tiny-JS-world/)  
+
+## Offline Web Applications
+
+## Memory pair game 
+[Demo](https://lu-sure.github.io/Memory_pair_game/)  
+
+## Website Performance Optimization
+
+## Friends App 
